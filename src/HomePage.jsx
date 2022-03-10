@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import UsePokemons from "./UsePokemons.jsx"
-import handleButEvent from "./handleButEvent.jsx";
+
  
 
 export default function HomePage(){

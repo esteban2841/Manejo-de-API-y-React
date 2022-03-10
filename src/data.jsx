@@ -8,7 +8,7 @@ export const getPokemons = async ()=>{
     const dataAllPokemons = []
     
     
-    const data = infoJson.results.map(poke=>{
+    infoJson.results.forEach(poke=>{
 
         const index = poke.url.split("/");
         
